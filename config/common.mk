@@ -145,6 +145,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     KeyboardNoNavigationBar
 
+# Theme
+PRODUCT_PACKAGES += \
+    YaapBlackTheme
+
 # Packages
 include vendor/yaap/config/packages.mk
 

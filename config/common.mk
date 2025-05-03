@@ -141,6 +141,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.input.video_enabled=false
 
+# Hide IME navbar
+PRODUCT_PACKAGES += \
+    KeyboardNoNavigationBar
+
 # Packages
 include vendor/yaap/config/packages.mk
 
